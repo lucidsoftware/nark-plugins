@@ -2,6 +2,14 @@ nark-plugins
 ============
 Nark allows users to write plugins to take actions when certain events occur in the Nark system. This allows customization of Nark for various use cases.
 
+To create a Nark plugin, add the following dependency to the plugin project:
+
+```
+libraryDependencies ++= Seq(
+  "com.lucidchart" %% "nark-plugin" % "1.0"
+)
+```
+
 ### Alert Plugins
 
 Alert plugins are called when an alert in the Nark system changes state (ie, error -> normal, warning -> error, etc.). These plugins can therefore take custom action when an alert is fired or goes back to a normal state.
