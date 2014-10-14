@@ -32,7 +32,7 @@ case class AlertEvent (
 	comparison: Comparisons.Value,
 	warnThreshold: BigDecimal,
 	errorThreshold: BigDecimal,
-	lastValue: BigDecimal,
+	lastValue: Option[BigDecimal],
 	previous: AlertState.Value,
 	current: AlertState.Value
 )

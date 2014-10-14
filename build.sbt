@@ -2,7 +2,7 @@ name := "Nark Plugin"
 
 organization := "com.lucidchart"
 
-version := "1.0"
+version := "1.1"
 
 scalaVersion := "2.10.4"
 
